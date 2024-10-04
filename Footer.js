@@ -32,14 +32,6 @@ function Footer() {
     }
   }, []);
 
-  // Function to trigger the chatbot manually
-  const openChatbot = () => {
-    const chatRoot = document.getElementById('docsbotai-root');
-    if (chatRoot) {
-      chatRoot.style.display = 'block';  // Make sure the chat is visible
-    }
-  };
-
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -89,9 +81,6 @@ function Footer() {
             <i className="fab fa-youtube"></i>
           </div>
         </div>
-      </div>
-      <div className="chatbot-button-container">
-        <button onClick={openChatbot} className="chatbot-button">Chat with us!</button>
       </div>
     </footer>
   );
