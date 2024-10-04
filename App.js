@@ -12,6 +12,8 @@ function App() {
       {/* Render Footer Component */}
       <Footer />
     </div>
+
+    
   );
 }
 
